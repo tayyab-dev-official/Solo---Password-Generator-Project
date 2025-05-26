@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: #D1FAE5;
+    font-family: Inter;
+}
+
+#main-container{
+    width: 500px;
+    background-color: #1C1C1C;
+    color: white;
+    margin: 40px auto;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 45px;    
+}
+
+#main-heading{    
+    font-family: Karla;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -2.5%;
+    margin-bottom: 5px;
+}
+
+#main-heading-part{
+    color: #34D399;
+}
+
+#main-heading-tagline{
+    width: 372;
+    height: 28;
+    top: 205px;
+    left: 52px;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+
+    color: #D5D4D8;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+button{
+    width: 180px;
+    
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+    color: #FFFFFF;
+    background-color: #10B981;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+/* Solid border */
+hr.divider {
+  border: none;
+  border-top: 1px solid #273549;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.password-options-container{
+    margin-bottom: 20px;
+}
+
+.password{
+    width: 211px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #273549;
+    color: #55F991;
+    margin-right: 10px;
+    padding: 6px 6px;
+}
+
+#password-range{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+output{
+    margin-left: 20px;
+}
+
+.generated-passwords{
+    width: 90%;
+    margin: 0px auto;
+}

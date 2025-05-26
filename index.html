@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main-container">
+            <h1 id="main-heading">Generate a <br><span id="main-heading-part">random password</span></h1>
+            <p id="main-heading-tagline">Never use an insecure password again.</p>
+
+            <div class="password-options-container">
+                <label for="password-range">Password Length<br>
+                <input id="password-range" type="range" value="15" min="6" max="20" oninput="this.nextElementSibling.value = this.value"><output id="password-length">15</output> characters<br>            
+                </label>
+
+                <label for="password-digits-option">
+                    <input type="checkbox" name="password-digits-option" id="password-digits-option" checked>
+                    Include Numbers (0-9)
+                </label>
+                <br>
+                <label for="password-symbols-option">
+                    <input type="checkbox" name="password-symbols-option" id="password-symbols-option" checked>
+                    Include Symbols (~!@#$%^&*)
+                </label>
+            </div>
+            
+            <button onclick="generatePasswords()">Generate passwords</button>
+            </label>
+            
+            <hr class="divider">
+            <div class="generated-passwords">
+                <button id="password-el-1" class="password" onclick="copyContent('password-el-1')"></button>
+                <button id="password-el-2" class="password" onclick="copyContent('password-el-2')"></button>
+            </div>
+            
+            
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
