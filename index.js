@@ -16,7 +16,7 @@ function generatePasswords(){
     let password1 = getPassword()
     let password2 = getPassword()
     
-    console.log("Password length required: " + outputEl.textContent)
+    console.log("Required password length: " + outputEl.textContent)
 
     console.log("Password-1: " + password1 + " [" + password1.length + " characters]")
     console.log("Password-2: " + password2 + " [" + password2.length + " characters]")
