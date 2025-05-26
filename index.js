@@ -18,11 +18,9 @@ function generatePasswords(){
     
     console.log("Password length required: " + outputEl.textContent)
 
-    console.log("Password-1: " + password1)
-    console.log("Password-1 length: " + password1.length + " characters")
-    console.log("Password-2: " + password2)
-    console.log("Password-2 length: " + password1.length + " characters")
-
+    console.log("Password-1: " + password1 + " [" + password1.length + " characters]")
+    console.log("Password-2: " + password2 + " [" + password2.length + " characters]")
+    
     if (geratedPasswordsEl.style.display === "none"){
         geratedPasswordsEl.style.display = "block"
     }
