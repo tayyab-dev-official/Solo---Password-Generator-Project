@@ -10,7 +10,6 @@ let digitsEl = document.getElementById('password-digits-option')
 let symbolsEl = document.getElementById('password-symbols-option')
 let geratedPasswordsEl = document.querySelector('.generated-passwords')
 
-console.log(geratedPasswordsEl)
 geratedPasswordsEl.style.display = "none"
 
 function generatePasswords(){
